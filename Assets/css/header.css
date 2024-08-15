@@ -1,0 +1,56 @@
+/* Estos estilos me parece que es mejor pasarlos a css externo */
+.dropdown-item.active,
+.dropdown-item:active {
+  color: inherit;
+  text-decoration: #fff;
+  background-color: #fff;
+}
+
+/* Boton carrito de compras */
+.btn_carrito {
+  background-color: transparent;
+  border: none;
+}
+
+.btn_carrito i {
+  font-size: 2rem;
+}
+
+.carrito {
+  transform: translateX(-100%);
+  width: 420px;
+  list-style: none;
+  text-decoration: none
+}
+
+.carrito_lista {
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+.img_producto_carrito {
+  width: 70px;
+  height: 70px;
+}
+
+.img_producto_carrito img {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.carrito_total {
+  border-top: 1px solid lightgray;
+}
+.carrito_total .btn_confirmar_compra {
+  background: transparent;
+  border: none;
+  background-color: #b36690;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
